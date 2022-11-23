@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container"><div class="pic">
+        <img src="./figma pics/Asset 1@3x 1.png" alt="bank">
+        </div>
+        <div class="menyu-op">
+        <p>БАНК</p>
+        <p class="gray">БИЗНЕС</p>
+        <p class="gray">ИНВЕСТИЦИИ</p>
+        <p class="gray">СТРАХОВАНИЕ</p>
+        <p class="gray">МОБАЙЛ</p>
+        <p class="gray">ПУТЕШЕСТВИЯ</p>
+        <p class="gray">РАЗВЛЕЧЕНИЯ</p>
+        </div>
+        <div class="voyt">
+        <p>ВОЙТИ</p>            
+        </div>
+</div>
+        <div class="container2">
+            <div> <h2>Конвертер валют онлайн</h2></div>   
+            <div class="dbltext">
+                <p>У меня есть </p>
+                <p>Хочу приобрести</p>
+            </div>
+            <div class="buttons">
+                <div class="first-half" id="button1" >
+                    <button class="btn" onclick="onChangeCurrency(event,'left','RUB')">RUB</button>
+                    <button onclick="onChangeCurrency(event,'left','USD')">USD</button>
+                    <button onclick="onChangeCurrency(event,'left','EUR')">EUR</button>
+                    <button class="btn2" onclick="onChangeCurrency(event,'left','GBP')">GBP</button>
+                </div>
+                <div class="second-half">
+                    <button class="btn3" onclick="onChangeCurrency(event,'right','RUB')">RUB</button>
+                    <button onclick="onChangeCurrency(event,'right','USD')">USD</button>
+                    <button onclick="onChangeCurrency(event,'right','EUR')">EUR</button>
+                    <button class="btn4" onclick="onChangeCurrency(event,'right','GBP')">GBP</button>
+            </div>
+                </div>
+            </div>
+            <div class="converters">
+                <div  id="first-converter">
+                 <input class="first-converter" type="text" id="first-box">
+                 <p class="rates1"></p>
+                </div>
+                <div  id="second-converter">
+                 <input class="second-converter" type="text" id="second-box">
+                 <p class="rates2"></p>
+                </div>
+            </div>       
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+@font-face {
+    
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Medium.ttf)
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+body {
+margin:0;
+}
+*{
+     font-family:Roboto;
+}
+.container {
+    background-color: #F5F5F6;
+   
+    
+    padding-left: 70px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.menyu-op {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menyu-op p {
+    padding-right: 30px;
+}
+
+.voyt {
+    margin-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.gray {
+    color: #959BA4;
+}
+
+.container2 {
+    margin-left: 253px;
+    margin-right: 258px;
+}
+.dbltext {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 240px;
+    color: gray;  
+}
+.dbltext p{
+    font-family: Roboto-Regular;
+    color: #9F9F9F;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.first-half, .second-half {
+    display: flex;
+   flex-direction: row;
+  
+   
+}
+.first-half button, .second-half button {
+  border-color: #E5E5E5 ;
+  background-color: white;
+  font-size: 20px;
+  font-family: Roboto-Regular;
+  height: 50px;
+  width: 94px;
+  color: #E5E5E5;
+}
+
+.first-half div, .second-half div {
+    padding: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+     border: 1px solid #E5E5E5;  
+     
+}
+.btn , .btn3 {
+border-top-left-radius:5px;
+border-bottom-left-radius:5px;
+}
+
+
+.btn2, .btn4 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top:106px ;
+}
+.converters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.first-converter, .second-converter {
+    width: 367px;
+    height: 132px;
+    border: 1px solid #E5E5E5;  
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 40px;
+    
+}
+.first-converter {
+    margin-left: 255px;
+    padding-left: 20px;
+}
+.second-converter {
+    margin-right: 255px;
+    padding-right: 20px;
+}
+
+.activeButton{
+    background-color: #833AE0 !important;
+    color: white !important;
+}
+
+.rates1 {
+  position: relative;
+  left: 270px;
+  bottom: 50px;
+  color: #9F9F9F;
+}
+.rates2 {
+  position: relative;
+  left: 20px;
+  bottom: 50px;
+  color: #9F9F9F;}
